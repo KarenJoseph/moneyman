@@ -1,5 +1,5 @@
 # ---- Base Node ----
-FROM node:alpine AS base
+FROM node:23.11.1-alpine3.21 AS base
 
 RUN apk add --no-cache \
       chromium \
